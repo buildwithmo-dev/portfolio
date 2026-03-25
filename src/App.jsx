@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 
 export default function App() {
   return (
-    <div className="bg-white dark:bg-black text-black dark:text-white">
+    <div className="bg-white dark:bg-black transition-colors duration-300">
       <Navbar />
 
       <main className="pt-20">
