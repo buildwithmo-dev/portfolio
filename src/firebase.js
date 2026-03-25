@@ -8,7 +8,7 @@ const firebaseConfig = {
   projectId: "portfolio-backend-b6f96",
   storageBucket: "portfolio-backend-b6f96.firebasestorage.app",
   messagingSenderId: "67842472041",
-  appId: "PASTE1:67842472041:web:b8b00a6c528c9c55890af8_YOURS"
+  appId: "1:67842472041:web:b8b00a6c528c9c55890af8"
 };
 
 // Initialize Firebase
