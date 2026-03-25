@@ -1,16 +1,18 @@
 import { initializeApp } from "firebase/app";
+// import { getAnalytics } from "firebase/analytics";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: import.meta.env.apiKey,
-  authDomain: import.meta.env.authDomain,
-  projectId: import.meta.env.projectId,
-  storageBucket: import.meta.env.storageBucket,
-  messagingSenderId: import.meta.env.messagingSenderId,
-  appId: import.meta.env.appId,
+  apiKey: "AIzaSyDSAXneJCqJ_2w5ii5spiY0ztdvIJhJNKY",
+  authDomain: "portfolio-backend-b6f96.firebaseapp.com",
+  projectId: "portfolio-backend-b6f96",
+  storageBucket: "portfolio-backend-b6f96.firebasestorage.app",
+  messagingSenderId: "67842472041",
+  appId: "1:67842472041:web:b8b00a6c528c9c55890af8",
+  measurementId: "G-LL6D2RC8S9"
 };
 
-console.log(import.meta.env);
-
+// Initialize Firebase
 const app = initializeApp(firebaseConfig);
+// const analytics = getAnalytics(app);
 export const db = getFirestore(app);
